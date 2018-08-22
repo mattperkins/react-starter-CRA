@@ -1,37 +1,18 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 import registerServiceWorker from './registerServiceWorker'
-import styled, {injectGlobal} from 'styled-components'
-
-//eslint-disable-next-line
-injectGlobal`
-body {
-font-family: sans-serif;
-background: #f7f7f7;
-}
-`
-
-// styled components
-const Wrapper = styled.div`
-margin: 100px;
-`
-
+import './css/style.css'
 
 // main ("ROOT") component 
 class Root extends React.Component {
 
-
-// MAIN COMPONENT RENDER
 render() {
 
-// MAIN COMPONENT RETURN
 return (
 
-<Wrapper>
-
-  <h1>Hello, World!</h1>
-
-</Wrapper>
+<div>
+<h1>Hello, World!</h1>
+</div>
 
 )// end return
 }// end render
