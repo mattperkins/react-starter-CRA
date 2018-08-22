@@ -1,14 +1,8 @@
-html { 
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
-  -ms-text-size-adjust: 100%; 
-  -webkit-text-size-adjust: 100%; 
-}
-html,body,h1,h2,h3,h4,p,div,section,main,table,ul,li,span,a{
+*{
  margin: 0;
  padding: 0;
-} 
+ box-sizing: border-box;
+}
 body{
- background-color: #f7f7f7;
- color: #111;
+ margin: 40px;
 }
