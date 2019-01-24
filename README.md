@@ -10,5 +10,3 @@
 # DEPLOY 
 ## npm build
 
-## add the following where keys apply 
-### require('dotenv').config()
